@@ -3,9 +3,9 @@
 # suggested that you use the "grails integrate-with --git" command
 # to generate your .gitignore file.
 
-# web application files
-/web-app/WEB-INF/classes
-
+/build
+/lib
+/out
 # default HSQL database files for production mode
 /prodDb.*
 
