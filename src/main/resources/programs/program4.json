@@ -1,0 +1,40 @@
+{
+    "sceneSequence": [
+       ],
+    "programCode": 4,
+    "scenes": [
+        {
+            "sceneType": "SIMULTANEOUS",
+            "updateSceneCodes": [
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":10,   "data2": 60} },
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":8,   "data2": 0} },
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel": 14, "data2": 0} }
+            ],
+            "elements": [    ]
+        },
+        {
+            "sceneType": "SIMULTANEOUS",
+            "updateSceneCodes": [
+                 {   "device": "digit", "message": {"command": 176,"data1": 7,"channel": 10, "data2": 0} },
+	             {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":8,   "data2": 0} },
+     
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel": 14, "data2": 127}}
+            ],
+            "elements": [    ]
+          },
+        
+		{
+            "sceneType": "SIMULTANEOUS",
+            "updateSceneCodes": [
+                 {   "device": "digit", "message": {"command": 176,"data1": 7,"channel": 10, "data2": 0} },
+	             {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":8,   "data2": 127} },
+     
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel": 14, "data2": 0}}
+            ],
+            "elements": [    ]
+
+        }
+
+
+    ]
+}

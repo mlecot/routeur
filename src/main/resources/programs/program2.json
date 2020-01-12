@@ -1,0 +1,102 @@
+{
+    "sceneSequence": [
+        
+    ],
+    "programCode": 2,
+    "scenes": [
+        {
+            "sceneType": "SIMULTANEOUS", // scène 1
+            "updateSceneCodes": [
+                // piano  ON
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":3,   "data2": 90} },
+                ///piano electrique
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":4,   "data2": 0} },
+                /// violon
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":5,   "data2": 0} },
+                /// Strings
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":7,   "data2": 40} },
+                ///Accordeon
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel": 6, "data2": 0} }
+            ],
+            "elements": [    ]
+        },
+        {
+            "sceneType": "SIMULTANEOUS", // scène 2
+            "updateSceneCodes": [
+                // piano
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":3,   "data2": 0} },
+                ///piano electrique  on
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":4,   "data2": 80} },
+                /// violon
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":5,   "data2": 0} },
+                /// Strings
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":7,   "data2": 80} },
+                ///Accordeon
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel": 6, "data2": 0} }
+            ],
+            "elements": [    ]
+        },{
+            "sceneType": "SIMULTANEOUS", // scène 3
+            "updateSceneCodes": [
+                // piano
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":3,   "data2": 0} },
+                ///piano electrique
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":4,   "data2": 0} },
+                /// violon ON
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":5,   "data2": 127} },
+                /// Strings
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":7,   "data2": 80} },
+                ///Accordeon
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel": 6, "data2": 0} }
+            ],
+            "elements": [    ]
+        },
+        {
+            "sceneType": "SIMULTANEOUS", ///Scène 4
+            "updateSceneCodes": [
+                // piano
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":3,   "data2": 0} },
+                ///piano electrique
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":4,   "data2": 0} },
+                /// violon ON attenué
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":5,   "data2": 95} },
+                /// Strings
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":7,   "data2": 80} },
+                ///Accordeon
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel": 6, "data2": 0} }
+            ],
+            "elements": [    ]
+        }, {
+            "sceneType": "SIMULTANEOUS", // scène 5
+            "updateSceneCodes": [
+                // piano
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":3,   "data2": 0} },
+                ///piano electrique
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":4,   "data2": 0} },
+                /// violon
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":5,   "data2": 0} },
+                /// Strings
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":7,   "data2": 80} },
+                ///Accordeon 0N
+                 {   "device": "digit", "message": {"command": 176,"data1": 7,"channel": 6, "data2": 75} }
+            ],
+            "elements": [    ]
+		},	{
+            "sceneType": "SIMULTANEOUS", ///Scène 6
+            "updateSceneCodes": [
+                // piano
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":3,   "data2": 0} },
+                ///piano electrique
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":4,   "data2": 0} },
+                /// violon ON attenué
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":5,   "data2": 127} },
+                /// Strings tres attenuées
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":7,   "data2": 20} },
+                ///Accordeon
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel": 6, "data2": 0} }
+            ],
+            "elements": [    ]
+        }
+
+    ]
+}

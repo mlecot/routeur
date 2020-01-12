@@ -1,0 +1,136 @@
+{
+    "sceneSequence": [
+        
+    ],
+    /*  code  du programme specifié dans le program change*/
+
+    "programCode": 1,
+    "scenes": [
+        {   // scene 0
+            "sceneType": "SIMULTANEOUS",
+            // codes envoyés quand on change de Scène.
+            "updateSceneCodes": [
+                {
+                    "device": "digit", // nom du device : digit, sd2 ou clavia
+                    "message": {
+                        "data2": 100,
+                        "command": 176,
+                        "data1": 60,
+                        "channel": 2
+                    },
+                    "timeStamp": 0
+                },
+                {
+                    "device": "digit",
+                    "message": {
+                        "data2": 0,
+                        "command": 176,
+                        "data1": 7,
+                        "channel": 11
+                    },
+                    "timeStamp": 0
+                }
+            ],
+            "elements": [
+                {
+                    "device": "sd2",
+                    "transposition": 12,
+                    "channel": 1
+                }
+            ]
+        },
+        {   // scène 1
+            "sceneType": "SIMULTANEOUS",
+            "updateSceneCodes": [
+                {
+                    "device": "digit",
+                    "message": {
+                        "data2": 0,
+                        /// 176 : b0 control change
+                        "command": 176,
+                        "data1": 60,
+                        "channel": 11
+                    },
+                    "timeStamp": 0
+                },
+                {
+                    "device": "digit",
+                    "message": {
+                        "data2": 100,
+                        /// 176 : b0 control change
+                        "command": 176,
+                        /// volume
+                        "data1": 7,
+                        /// numero de canal
+                        "channel": 2
+                    },
+                    "timeStamp": 0
+                }
+            ],
+            "elements": [
+                {
+                    "device": "sd2",
+                    "transposition": 12,
+                    "channel": 2
+                }
+            ]
+        },
+        {
+            "sceneType": "SIMULTANEOUS",
+            "updateSceneCodes": [
+                
+            ],
+            "elements": [
+                {
+                    "device": "sd2",
+                    "transposition": 0,
+                    "channel": 3
+                }
+            ]
+        },
+        {
+            "sceneType": "SIMULTANEOUS",
+            "updateSceneCodes": [
+                
+            ],
+            "elements": [
+                {
+                    "device": "sd2",
+                    "transposition": 0,
+                    "channel": 1
+                },
+                {
+                    "device": "sd2",
+                    "transposition": 4,
+                    "channel": 1
+                }
+            ]
+        },
+        {
+            "sceneType": "SEPARATED",
+            "updateSceneCodes": null,
+            "elements": [
+                {
+                    "device": "sd2",
+                    "transposition": 12,
+                    "channel": 1
+                },
+                {
+                    "device": "sd2",
+                    "transposition": 12,
+                    "channel": 2
+                },
+                {
+                    "device": "sd2",
+                    "transposition": 12,
+                    "channel": 2
+                },
+                {
+                    "device": "sd2",
+                    "transposition": 24,
+                    "channel": 2
+                }
+            ]
+        }
+    ]
+}

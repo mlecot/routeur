@@ -1,0 +1,300 @@
+{
+    "sceneSequence": [
+        0,
+        1,
+        0,
+        3,
+        2,
+        0,
+        4
+    ],
+    "programCode": 3,
+    "scenes": [
+        {
+            "sceneType": "SIMULTANEOUS",
+            "updateSceneCodes": [
+                {
+                    "device": "digit",
+                    "message": {
+                        "data2": 75,
+                        "command": 176,
+                        "data1": 7,
+                        "channel": 10
+                    }
+                },
+                {
+                    "device": "digit",
+                    "message": {
+                        "data2": 0,
+                        "command": 176,
+                        "data1": 7,
+                        "channel": 8
+                    }
+                },
+                {
+                    "device": "digit",
+                    "message": {
+                        "data2": 0,
+                        "command": 176,
+                        "data1": 7,
+                        "channel": 7
+                    }
+                },
+                {
+                    "device": "digit",
+                    "message": {
+                        "data2": 0,
+                        "command": 176,
+                        "data1": 7,
+                        "channel": 6
+                    }
+                },
+                {
+                    "device": "digit",
+                    "message": {
+                        "data2": 0,
+                        "command": 176,
+                        "data1": 7,
+                        "channel": 5
+                    },
+                    "timeStamp": 0
+                }
+            ],
+            "elements": [
+                
+            ]
+        },
+        {
+            "sceneType": "SIMULTANEOUS",
+            "updateSceneCodes": [
+                {
+                    "device": "digit",
+                    "message": {
+                        "data2": 0,
+                        "command": 176,
+                        "data1": 7,
+                        "channel": 10
+                    },
+                    "timeStamp": 0
+                },
+                {
+                    "device": "digit",
+                    "message": {
+                        "data2": 120,
+                        "command": 176,
+                        "data1": 7,
+                        "channel": 8
+                    },
+                    "timeStamp": 0
+                },
+                {
+                    "device": "digit",
+                    "message": {
+                        "data2": 0,
+                        "command": 176,
+                        "data1": 7,
+                        "channel": 7
+                    },
+                    "timeStamp": 0
+                },
+                {
+                    "device": "digit",
+                    "message": {
+                        "data2": 0,
+                        "command": 176,
+                        "data1": 7,
+                        "channel": 6
+                    },
+                    "timeStamp": 0
+                },
+                {
+                    "device": "digit",
+                    "message": {
+                        "data2": 0,
+                        "command": 176,
+                        "data1": 7,
+                        "channel": 5
+                    },
+                    "timeStamp": 0
+                }
+            ],
+            "elements": [
+                
+            ]
+        },
+        {
+            "sceneType": "SIMULTANEOUS",
+            "updateSceneCodes": [
+                {
+                    "device": "digit",
+                    "message": {
+                        "data2": 0,
+                        "command": 176,
+                        "data1": 7,
+                        "channel": 10
+                    },
+                    "timeStamp": 0
+                },
+                {
+                    "device": "digit",
+                    "message": {
+                        "data2": 0,
+                        "command": 176,
+                        "data1": 7,
+                        "channel": 8
+                    },
+                    "timeStamp": 0
+                },
+                {
+                    "device": "digit",
+                    "message": {
+                        "data2": 70,
+                        "command": 176,
+                        "data1": 7,
+                        "channel": 7
+                    },
+                    "timeStamp": 0
+                },
+                {
+                    "device": "digit",
+                    "message": {
+                        "data2": 0,
+                        "command": 176,
+                        "data1": 7,
+                        "channel": 6
+                    },
+                    "timeStamp": 0
+                },
+                {
+                    "device": "digit",
+                    "message": {
+                        "data2": 0,
+                        "command": 176,
+                        "data1": 7,
+                        "channel": 5
+                    },
+                    "timeStamp": 0
+                }
+            ],
+            "elements": [
+                
+            ]
+        },
+        {
+            "sceneType": "SIMULTANEOUS",
+            "updateSceneCodes": [
+                {
+                    "device": "digit",
+                    "message": {
+                        "data2": 0,
+                        "command": 176,
+                        "data1": 7,
+                        "channel": 10
+                    },
+                    "timeStamp": 0
+                },
+                {
+                    "device": "digit",
+                    "message": {
+                        "data2": 0,
+                        "command": 176,
+                        "data1": 7,
+                        "channel": 8
+                    },
+                    "timeStamp": 0
+                },
+                {
+                    "device": "digit",
+                    "message": {
+                        "data2": 0,
+                        "command": 176,
+                        "data1": 7,
+                        "channel": 7
+                    },
+                    "timeStamp": 0
+                },
+                {
+                    "device": "digit",
+                    "message": {
+                        "data2": 126,
+                        "command": 176,
+                        "data1": 7,
+                        "channel": 6
+                    },
+                    "timeStamp": 0
+                },
+                {
+                    "device": "digit",
+                    "message": {
+                        "data2": 0,
+                        "command": 176,
+                        "data1": 7,
+                        "channel": 5
+                    },
+                    "timeStamp": 0
+                }
+            ],
+            "elements": [
+                
+            ]
+        },
+        {
+            "sceneType": "SIMULTANEOUS",
+            "updateSceneCodes": [
+                {
+                    "device": "digit",
+                    "message": {
+                        "data2": 0,
+                        "command": 176,
+                        "data1": 7,
+                        "channel": 10
+                    },
+                    "timeStamp": 0
+                },
+                {
+                    "device": "digit",
+                    "message": {
+                        "data2": 0,
+                        "command": 176,
+                        "data1": 7,
+                        "channel": 8
+                    },
+                    "timeStamp": 0
+                },
+                {
+                    "device": "digit",
+                    "message": {
+                        "data2": 0,
+                        "command": 176,
+                        "data1": 7,
+                        "channel": 7
+                    },
+                    "timeStamp": 0
+                },
+                {
+                    "device": "digit",
+                    "message": {
+                        "data2": 0,
+                        "command": 176,
+                        "data1": 7,
+                        "channel": 6
+                    },
+                    "timeStamp": 0
+                },
+                {
+                    "device": "digit",
+                    "message": {
+                        "data2": 126,
+                        "command": 176,
+                        "data1": 7,
+                        "channel": 5
+                    },
+                    "timeStamp": 0
+                }
+            ],
+            "elements": [
+                
+            ]
+        }
+    ]
+}

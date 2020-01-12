@@ -1,0 +1,45 @@
+{
+    "sceneSequence": [
+        
+    ],
+    "programCode": 3,
+    "scenes": [
+        {
+            "sceneType": "SIMULTANEOUS", // scène 1
+            "updateSceneCodes": [
+                // Piano on
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":8,   "data2": 77} },
+                // slow String on
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":12,   "data2": 100} },
+                /// Orgue Off
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":1,   "data2": 0} }
+            ],
+            "elements": [    ]
+        },
+        {
+            "sceneType": "SIMULTANEOUS", // scène 2
+            "updateSceneCodes": [
+                // Piano on
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":8,   "data2": 100} },
+                // slow String on
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":12,   "data2": 0} },
+                /// Orgue Off
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":1,   "data2": 0} }
+           ],
+            "elements": [    ]
+        },
+        {
+            "sceneType": "SIMULTANEOUS", // scène 2
+            "updateSceneCodes": [
+                // Piano on
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":8,   "data2": 0} },
+                // slow String on
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":12,   "data2": 0} },
+                /// Orgue Off
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":1,   "data2": 90} }
+            ],
+            "elements": [    ]
+        }
+
+    ]
+}

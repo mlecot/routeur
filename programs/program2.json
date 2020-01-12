@@ -1,0 +1,29 @@
+{
+    "sceneSequence": [
+        
+    ],
+    "programCode": 2,
+    "scenes": [
+        {
+            "sceneType": "SIMULTANEOUS", // scène 1
+            "updateSceneCodes": [
+                // Mandoline   ON
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":12,   "data2": 100} },
+                ///celeste OFF
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":1,   "data2": 0} }
+            ],
+            "elements": [    ]
+        },
+        {
+            "sceneType": "SIMULTANEOUS", // scène 2
+            "updateSceneCodes": [
+                // Mandoline   off
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":12,   "data2": 0} },
+                ///celeste on
+                {   "device": "digit", "message": {"command": 176,"data1": 7,"channel":1,   "data2": 100} }
+            ],
+            "elements": [    ]
+        }
+
+    ]
+}

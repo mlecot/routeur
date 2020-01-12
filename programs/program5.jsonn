@@ -1,0 +1,149 @@
+{
+  "sceneSequence": [
+  ],
+  "programCode": 5,
+  "scenes": [
+    {
+      "sceneType": "SIMULTANEOUS",
+      // scène 1
+      "updateSceneCodes": [
+        // piano  ON
+        {
+          "device": "digit","message": { "command": 176,"data1": 7,
+            "channel": 3,
+            "data2": 75
+          }
+        },
+        ///orgue
+        {
+          "device": "digit",
+          "message": {
+            "command": 176,
+            "data1": 7,
+            "channel": 4,
+            "data2": 0
+          }
+        },
+        /// violon
+        {
+          "device": "digit",
+          "message": {
+            "command": 176,
+            "data1": 7,
+            "channel": 5,
+            "data2": 0
+          }
+        },
+        ///Accordeon
+        {
+          "device": "digit",
+          "message": {
+            "command": 176,
+            "data1": 7,
+            "channel":7,
+            "data2":37
+          }
+
+        }
+      ],
+      "elements": []
+    },
+    {
+      "sceneType": "SIMULTANEOUS",
+      // scène 2
+
+      "updateSceneCodes": [
+        // piano
+        {
+          "device": "digit",
+          "message": {
+            "command": 176,
+            "data1": 7,
+            "channel": 3,
+            "data2": 0
+          }
+        },
+        ///orgue on
+        {
+          "device": "digit",
+          "message": {
+            "command": 176,
+            "data1": 7,
+            "channel": 4,
+            "data2": 127
+          }
+        },
+        /// violon
+        {
+          "device": "digit",
+          "message": {
+            "command": 176,
+            "data1": 7,
+            "channel": 5,
+            "data2": 0
+          }
+        },
+        ///Accordeon
+        {
+          "device": "digit",
+          "message": {
+            "command": 176,
+            "data1": 7,
+            "channel":7,
+            "data2":45
+          }
+        }
+      ],
+      "elements": []
+    },
+    {
+      "sceneType": "SIMULTANEOUS",
+      // scène 3
+      "updateSceneCodes": [
+        // piano
+        {
+          "device": "digit",
+          "message": {
+            "command": 176,
+            "data1": 7,
+            "channel": 3,
+            "data2": 0
+          }
+        },
+        ///piano electrique
+        {
+          "device": "digit",
+          "message": {
+            "command": 176,
+            "data1": 7,
+            "channel": 4,
+            "data2": 0
+          }
+        },
+        /// violon attenué
+        {
+          "device": "digit",
+          "message": {
+            "command": 176,
+            "data1": 7,
+            "channel": 5,
+            "data2": 75
+          }
+
+        },
+        ///Accordeon
+        {
+          "device": "digit",
+          "message": {
+            "command": 176,
+            "data1": 7,
+            "channel":7,
+            "data2":100
+          }
+
+        }
+      ],
+      "elements": []
+    }
+  ]
+}
